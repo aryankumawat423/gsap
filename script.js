@@ -1,14 +1,21 @@
-var tl = gsap.timeline()
-tl.from(".block",{
+
+gsap.from("h1",{
+    x:500,
     opacity:0,
-    y:20,
-    delay:2,
-    duration:3
+    scrollTrigger:{
+        trigger:".page2 h1",
+ scrub:2,
+        scroller:"body",
+    }
 
 })
-tl.from(".block2",{
+gsap.from("h2",{
+    x:500,
     opacity:0,
-    y:20,
-    delay:2,
-    duration:3
+    scrollTrigger:{
+        trigger:".page2 h2",
+        scroller:"body",
+        start:"top 50%"
+    }
+
 })

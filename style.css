@@ -9,16 +9,40 @@ body{
     height: 100%;
     width: 100%;
 }
-.block{
-
-  
+.page1{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page2{
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.page3{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.block2{
-    gap: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.box1{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+
+}.box3{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+h2{
+    color:grey
 }
